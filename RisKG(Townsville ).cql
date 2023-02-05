@@ -42,10 +42,10 @@ CREATE
 // Risk Rating 
 // Rating notes should be included
 
-(Ratn1:RISKRATING{Name:"RATG01", Probability: "Possibile", Impact: "Major", Rating:"High"}),
-(Ratn2:RISKRATING{Name:"RATG02", Probability: "Possibile", Impact: "Major", Rating:"High"}),
-(Ratn3:RISKRATING{Name:"RATG03", Probability: "Possibile", Impact: "Major", Rating:"High"}),
-(Ratn4:RISKRATING{Name:"RATG04", Probability: "Possibile", Impact: "Major", Rating:"High"}),
+(Ratn1:RISKRATING{Name:"RATG01", Probability: "Possible", Impact: "Major", Rating:"High"}),
+(Ratn2:RISKRATING{Name:"RATG02", Probability: "Possible", Impact: "Major", Rating:"High"}),
+(Ratn3:RISKRATING{Name:"RATG03", Probability: "Possible", Impact: "Major", Rating:"High"}),
+(Ratn4:RISKRATING{Name:"RATG04", Probability: "Possible", Impact: "Major", Rating:"High"}),
 
 // Risk Consequence
 (Consq1:RISKCONSEQUENCE{Name:"CONSQ01", Description:"Injury or death, destruction/damage to buildings and infrastructure"}),
@@ -118,22 +118,22 @@ CREATE
 
 // Risk Rating 
 // Rating notes should be included
-(Ratn5:RISKRATING{Name:"RATG05", Probability: "Possibile", Impact: "Minor", Rating:"Low"}),
-(Ratn6:RISKRATING{Name:"RATG06", Probability: "Possibile", Impact: "Moderate", Rating:"Moderate"}),
-(Ratn7:RISKRATING{Name:"RATG07", Probability: "Possibile", Impact: "Moderate", Rating:"Moderate"}),
+(Ratn5:RISKRATING{Name:"RATG05", Probability: "Possible", Impact: "Minor", Rating:"Low"}),
+(Ratn6:RISKRATING{Name:"RATG06", Probability: "Possible", Impact: "Moderate", Rating:"Moderate"}),
+(Ratn7:RISKRATING{Name:"RATG07", Probability: "Possible", Impact: "Moderate", Rating:"Moderate"}),
 (Ratn8:RISKRATING{Name:"RATG08", Probability: "Rare", Impact: "Moderate", Rating:"Negligible"}),
 (Ratn9:RISKRATING{Name:"RATG09", Probability: "Unlikely", Impact: "Moderate", Rating:"Low"}),
 (Ratn10:RISKRATING{Name:"RATG10", Probability: "Rare", Impact: "Moderate", Rating:"Negligible"}),
 (Ratn11:RISKRATING{Name:"RATG11", Probability: "Unlikelye", Impact: "Moderate", Rating:"Low"}),
-(Ratn12:RISKRATING{Name:"RATG12", Probability: "Possibile",Impact: "Moderate", Rating:"Moderate"}),
+(Ratn12:RISKRATING{Name:"RATG12", Probability: "Possible",Impact: "Moderate", Rating:"Moderate"}),
 (Ratn13:RISKRATING{Name:"RATG13", Probability: "Rare", Impact: "Moderate", Rating:"Negligible"}),
 (Ratn14:RISKRATING{Name:"RATG14", Probability: "Rare", Impact: "Moderate", Rating:"Negligible"}),
-(Ratn15:RISKRATING{Name:"RATG15", Probability: "Possibile", Impact: "Moderate", Rating:"Moderate"}),
+(Ratn15:RISKRATING{Name:"RATG15", Probability: "Possible", Impact: "Moderate", Rating:"Moderate"}),
 (Ratn16:RISKRATING{Name:"RATG16", Probability: "Likely", Impact: "Minor", Rating:"Moderate"}),
 (Ratn17:RISKRATING{Name:"RATG17", Probability: "Unlikely", Impact: "Moderate", Rating:"Low"}),
-(Ratn18:RISKRATING{Name:"RATG18", Probability: "Possibile", Impact: "Major", Rating:"High"}),
-(Ratn19:RISKRATING{Name:"RATG19", Probability: "Possibile", Impact: "Moderate", Rating:"Moderate"}),
-(Ratn20:RISKRATING{Name:"RATG20", Probability: "Possibile", Impact: "Major", Rating:"High"}),
+(Ratn18:RISKRATING{Name:"RATG18", Probability: "Possible", Impact: "Major", Rating:"High"}),
+(Ratn19:RISKRATING{Name:"RATG19", Probability: "Possible", Impact: "Moderate", Rating:"Moderate"}),
+(Ratn20:RISKRATING{Name:"RATG20", Probability: "Possible", Impact: "Major", Rating:"High"}),
 (Ratn21:RISKRATING{Name:"RATG21", Probability: "Possible", Impact: "Major", Rating:"High"}),
 (Ratn22:RISKRATING{Name:"RATG22", Probability: "likely", Impact: "Moderate", Rating:"High"}),
 (Ratn23:RISKRATING{Name:"RATG23", Probability: "Unlikely", Impact: "Major", Rating:"Moderate"}),
@@ -746,16 +746,16 @@ CREATE
 // Risk Rating 
 // Rating notes should be included
 (Ratn51:RISKRATING{Name:"RATG51", Probability: "Likely", Impact: "Major", Rating:"Extreme"}),
-(Ratn52:RISKRATING{Name:"RATG52", Probability: "Possibile", Impact: "Major", Rating:"High"}),
+(Ratn52:RISKRATING{Name:"RATG52", Probability: "Possible", Impact: "Major", Rating:"High"}),
 (Ratn53:RISKRATING{Name:"RATG53", Probability: "Unlikely", Impact: "Major", Rating:"Moderate"}),
 (Ratn54:RISKRATING{Name:"RATG54", Probability: "Possible", Impact: "Major", Rating:"High"}),
 (Ratn55:RISKRATING{Name:"RATG55", Probability: "Unlikely", Impact: "Major", Rating:"Moderate"}),
 (Ratn56:RISKRATING{Name:"RATG56", Probability: "Almost Certain", Impact: "Major", Rating:"Extreme"}),
 (Ratn57:RISKRATING{Name:"RATG57", Probability: "Unlikely", Impact: "Major", Rating:"Moderate"}),
-(Ratn58:RISKRATING{Name:"RATG58", Probability: "Possibile",Impact: "Major", Rating:"High"}),
+(Ratn58:RISKRATING{Name:"RATG58", Probability: "Possible",Impact: "Major", Rating:"High"}),
 (Ratn59:RISKRATING{Name:"RATG59", Probability: "Possible", Impact: "Major", Rating:"High"}),
 (Ratn60:RISKRATING{Name:"RATG60", Probability: "Unlikely", Impact: "Major", Rating:"Moderate"}),
-(Ratn61:RISKRATING{Name:"RATG61", Probability: "Possibile", Impact: "Major", Rating:"High"}),
+(Ratn61:RISKRATING{Name:"RATG61", Probability: "Possible", Impact: "Major", Rating:"High"}),
 (Ratn62:RISKRATING{Name:"RATG62", Probability: "Unlikely", Impact: "Major", Rating:"Moderate"}),
 (Ratn63:RISKRATING{Name:"RATG63", Probability: "Unlikely", Impact: "Moderate", Rating:"Low"}),
 
