@@ -54,10 +54,17 @@ CREATE
 (Consq4:RISKCONSEQUENCE{Name:"CONSQ04", Description:"Construction programme delays"}),
 
 // Risk mitigation
-(Mitig1:RISKMITIGATION{Name:"MITG01", Description: "Building and infrastructure designed to withstand extreme weather. Design category for cyclone rating and breakwaters and land masses designed for Q100 event., Construction Phase Disaster Action Plan includes early warnings for evacuation of personnel and equipment."}),
-(Mitig2:RISKMITIGATION{Name:"MITG02", Description: "Building and infrastructure designed to withstand extreme weather. Design category for cyclone rating and breakwaters and land masses designed for Q100 event. Construction Phase Disaster Action Plan."}),
-(Mitig3:RISKMITIGATION{Name:"MITG03", Description: "Building and infrastructure designed to withstand extreme weather. Design category for cyclone rating and breakwaters and land masses designed for Q100 event. Construction Phase Disaster Action Plan."}),
-(Mitig4:RISKMITIGATION{Name:"MITG04", Description: "Site secured and site personnel and equipment relocated to safe refuge. Site remediation works post event."}),
+(Mitig1:RISKMITIGATION{Name:"MITG01", Description: "(1) Building and infrastructure designed to withstand extreme weather. 
+(2) Design category for cyclone rating and breakwaters and land masses designed for Q100 event., 
+(3) Construction Phase Disaster Action Plan includes early warnings for evacuation of personnel and equipment."}),
+(Mitig2:RISKMITIGATION{Name:"MITG02", Description: "(1) Building and infrastructure designed to withstand extreme weather. 
+(2) Design category for cyclone rating and breakwaters and land masses designed for Q100 event. 
+(3) Construction Phase Disaster Action Plan."}),
+(Mitig3:RISKMITIGATION{Name:"MITG03", Description: "(1) Building and infrastructure designed to withstand extreme weather. 
+(2) Design category for cyclone rating and breakwaters and land masses designed for Q100 event. 
+(3) Construction Phase Disaster Action Plan."}),
+(Mitig4:RISKMITIGATION{Name:"MITG04", Description: "(1) Site secured and site personnel and equipment relocated to safe refuge. 
+(2) Site remediation works post event."}),
 
 // Relationship
 //proje--> risk source
@@ -162,21 +169,29 @@ CREATE
 
 
 // Risk mitigation
-(Mitig5:RISKMITIGATION{Name:"MITG05", Description: "Site fully bunded and contained. Sedimentation and erosion control measures in place under EMP."}),
-(Mitig6:RISKMITIGATION{Name:"MITG06", Description: "Geotechnical Analysis for design of slopes and batters. Specific design parameters for retaining and revetment works.."}),
-(Mitig7:RISKMITIGATION{Name:"MITG07", Description: "Site fully bunded and contained. Sedimentation and turbidity control measures in place under EMP."}),
-(Mitig8:RISKMITIGATION{Name:"MITG08", Description: "Site fully bunded and contained. Sedimentation,turbidity control and treatment measures in place under EMP."}),
+(Mitig5:RISKMITIGATION{Name:"MITG05", Description: "(1) Site fully bunded and contained. 
+(2) Sedimentation and erosion control measures in place under EMP."}),
+(Mitig6:RISKMITIGATION{Name:"MITG06", Description: "(1) Geotechnical Analysis for design of slopes and batters. 
+(2) Specific design parameters for retaining and revetment works."}),
+(Mitig7:RISKMITIGATION{Name:"MITG07", Description: "(1) Site fully bunded and contained. 
+(2) Sedimentation and turbidity control measures in place under EMP."}),
+(Mitig8:RISKMITIGATION{Name:"MITG08", Description: "(1) Site fully bunded and contained. 
+(2) Sedimentation,turbidity control and treatment measures in place under EMP."}),
 (Mitig9:RISKMITIGATION{Name:"MITG09", Description: "Level 1 construction supervision - appropriate design based on investigation and analysis."}),
 (Mitig10:RISKMITIGATION{Name:"MITG10", Description: "Monitoring of depressurization system through construction as identified in EMP."}),
 (Mitig11:RISKMITIGATION{Name:"MITG11", Description: "Additional depressurization wells along southern revetment wall."}),
 (Mitig12:RISKMITIGATION{Name:"MITG12", Description: "Monitoring of settlement rates additional surcharge/ wick drains, minor remediation grading works.."}),
 (Mitig13:RISKMITIGATION{Name:"MITG13", Description: "Level 1 construction supervision - appropriate placement compaction methods."}),
-(Mitig14:RISKMITIGATION{Name:"MITG14", Description: "Monitoring during construction stage. Construction of additional extraction wells as required."}),
-(Mitig15:RISKMITIGATION{Name:"MITG15", Description: "Close construction stage control of HDPE / Bentonite placement. Additional dewatering wells."}),
-(Mitig16:RISKMITIGATION{Name:"MITG16", Description: "Close construction stage control of HDPE / Bentoniteplacement over sand bedding. Additional dewatering wells."}),
+(Mitig14:RISKMITIGATION{Name:"MITG14", Description: "(1) Monitoring during construction stage. 
+(2) Construction of additional extraction wells as required."}),
+(Mitig15:RISKMITIGATION{Name:"MITG15", Description: "(1) Close construction stage control of HDPE / Bentonite placement. 
+(2) Additional dewatering wells."}),
+(Mitig16:RISKMITIGATION{Name:"MITG16", Description: "(1) Close construction stage control of HDPE / Bentoniteplacement over sand bedding. 
+(2) Additional dewatering wells."}),
 (Mitig17:RISKMITIGATION{Name:"MITG17", Description: "Monitoring during construction stage, construction of additional extraction wells as required."}),
 (Mitig18:RISKMITIGATION{Name:"MITG18", Description: "Undertake trials of equipment and handling techniques proposed by contractor."}),
-(Mitig19:RISKMITIGATION{Name:"MITG19", Description: "Level 1 supervision of imported fill. Additional investigation and testing of source material for suitability."}),
+(Mitig19:RISKMITIGATION{Name:"MITG19", Description: "(1) Level 1 supervision of imported fill. 
+(2) Additional investigation and testing of source material for suitability."}),
 (Mitig20:RISKMITIGATION{Name:"MITG20", Description: "Level 1 supervision of construction methodology."}),
 (Mitig21:RISKMITIGATION{Name:"MITG21", Description: "Geotechnical investigation and analysis of abutments and appropriate design."}),
 (Mitig22:RISKMITIGATION{Name:"MITG22", Description: "Controlled, low velocity rewatering of site, monitor turbidity, open areas progressively cell by cell."}),
@@ -461,7 +476,9 @@ CREATE
 
 // Risk mitigation
 (Mitig33:RISKMITIGATION{Name:"MITG33", Description: "Waste reduction and recycling in accordance with the waste hierarchy in the EPP Waste."}),
-(Mitig34:RISKMITIGATION{Name:"MITG34", Description: "Stormwater management in accordance with project SWMP, hazardous materials management in accordance with project EMP, waste minimisation and management in accordance with the project EMP."}),
+(Mitig34:RISKMITIGATION{Name:"MITG34", Description: "(1) Stormwater management in accordance with project SWMP. 
+(2) Hazardous materials management in accordance with project EMP. 
+(3) Waste minimisation and management in accordance with the project EMP."}),
 (Mitig35:RISKMITIGATION{Name:"MITG35", Description: "Waste minimisation and management practices for storage and disposal of solid waste in accordance with the project SWMP and EMP."}),
 (Mitig36:RISKMITIGATION{Name:"MITG36", Description: "Air quality control measures during construction in accordance with the project EMP."}),
 
@@ -511,7 +528,8 @@ CREATE
 (Consq37:RISKCONSEQUENCE{Name:"CONSQ37", Description:"Impacts on seagrasses and ecological communities in Cleveland Bay."}),
 
 // Risk mitigation
-(Mitig37:RISKMITIGATION{Name:"MITG37", Description: "Control of dewatering under the EMP, three indicative discharge areas are highlighted adjacent to each of the breakwaters. Preferred locations in rank order are discharge to Ross Creek, discharge adjacent to northern breakwater, discharge adjacent Strand breakwater."}),
+(Mitig37:RISKMITIGATION{Name:"MITG37", Description: "(1) Control of dewatering under the EMP, three indicative discharge areas are highlighted adjacent to each of the breakwaters. 
+(2) Preferred locations in rank order are discharge to Ross Creek, discharge adjacent to northern breakwater, discharge adjacent Strand breakwater."}),
 
 
 //.........Relationship...............
@@ -554,11 +572,21 @@ CREATE
 (Consq42:RISKCONSEQUENCE{Name:"CONSQ42", Description:"Destruction/damage to equipment and infrastructure."}),
 
 // Risk mitigation
-(Mitig38:RISKMITIGATION{Name:"MITG38", Description: "The 100 year ARI is the Designated Storm Tide Event (as defined by EPA). Site secured and site personnel and equipment relocated to safe refuge. Site remediation works post event."}),
-(Mitig39:RISKMITIGATION{Name:"MITG39", Description: "The 100 year ARI is the Designated Storm Tide Event  (as defined by EPA). Site secured and site personnel and equipment relocated to safe refuge. Site remediation works post event."}),
-(Mitig40:RISKMITIGATION{Name:"MITG40", Description: "Marine infrastructure structurally designed to accommodate 100 year ARI cyclone waves with minimal damage. Site secured and site personnel and equipment relocated to safe refuge. Site remediation works post event."}),
-(Mitig41:RISKMITIGATION{Name:"MITG41", Description: "Marine infrastructure structurally designed to accommodate 100 year ARI cyclone waves with minimal damage. Site secured and site personnel and equipment relocated to safe refuge. Site remediation works post event."}),
-(Mitig42:RISKMITIGATION{Name:"MITG42", Description: "Marine infrastructure structurally designed to accommodate 100 year ARI cyclone waves with minimal damage. Site secured and site personnel and equipment relocated to safe refuge. Site remediation works post event."}),
+(Mitig38:RISKMITIGATION{Name:"MITG38", Description: "(1) The 100 year ARI is the Designated Storm Tide Event (as defined by EPA). 
+(2) Site secured and site personnel and equipment relocated to safe refuge. 
+(3) Site remediation works post event."}),
+(Mitig39:RISKMITIGATION{Name:"MITG39", Description: "(1) The 100 year ARI is the Designated Storm Tide Event  (as defined by EPA). 
+(2) Site secured and site personnel and equipment relocated to safe refuge. 
+(3) Site remediation works post event."}),
+(Mitig40:RISKMITIGATION{Name:"MITG40", Description: "(1) Marine infrastructure structurally designed to accommodate 100 year ARI cyclone waves with minimal damage. 
+(2) Site secured and site personnel and equipment relocated to safe refuge. 
+(3) Site remediation works post event."}),
+(Mitig41:RISKMITIGATION{Name:"MITG41", Description: "(1) Marine infrastructure structurally designed to accommodate 100 year ARI cyclone waves with minimal damage. 
+(2) Site secured and site personnel and equipment relocated to safe refuge. 
+(3) Site remediation works post event."}),
+(Mitig42:RISKMITIGATION{Name:"MITG42", Description: "(1) Marine infrastructure structurally designed to accommodate 100 year ARI cyclone waves with minimal damage. 
+(2) Site secured and site personnel and equipment relocated to safe refuge. 
+(3) Site remediation works post event."}),
 
 // Relationship
 //proje--> risk source
@@ -666,7 +694,8 @@ CREATE
 // Risk mitigation
 (Mitig44:RISKMITIGATION{Name:"MITG44", Description: "Establish complaint hotline, preparation of construction noise and vibration management plan, execution of noise and vibration management and minimisation."}),
 (Mitig45:RISKMITIGATION{Name:"MITG45", Description: "Establish complaint hotline, select haul routes with minimum number of properties affected, maintain and operate equipment efficiently."}),
-(Mitig46:RISKMITIGATION{Name:"MITG46", Description: "Visual survey of site to detect noise sensitive species prior to commencement of construction works. Dispersal of noise sensitive species using motorised vessel."}),
+(Mitig46:RISKMITIGATION{Name:"MITG46", Description: "(1) Visual survey of site to detect noise sensitive species prior to commencement of construction works. 
+(2) Dispersal of noise sensitive species using motorised vessel."}),
 (Mitig47:RISKMITIGATION{Name:"MITG47", Description: "Establish complaint hotline, minimise duration of impacting works."}),
 (Mitig48:RISKMITIGATION{Name:"MITG48", Description: "Carry out dilapidation report. Establish complaint hotline. Minimise duration of impacting works."}),
 (Mitig49:RISKMITIGATION{Name:"MITG49", Description: "Establish complaint hotline, preparation of construction noise and vibration management plan, vibration monitoring."}),
@@ -776,17 +805,26 @@ CREATE
 
 // Risk mitigation
 (Mitig51:RISKMITIGATION{Name:"MITG51", Description: "Use of silt curtains during dredging and dredge protocols contained in project EMP."}),
-(Mitig52:RISKMITIGATION{Name:"MITG52", Description: "Use of silt curtains during dredging and dredge protocols contained in project EMP. Controlled dewatering of fully bunded site."}),
-(Mitig53:RISKMITIGATION{Name:"MITG53", Description: "Use of silt curtains during dredging and dredge protocols contained in project EMP. Controlled dewatering of fully bunded site."}),
+(Mitig52:RISKMITIGATION{Name:"MITG52", Description: "(1) Use of silt curtains during dredging and dredge protocols contained in project EMP. 
+(2) Controlled dewatering of fully bunded site."}),
+(Mitig53:RISKMITIGATION{Name:"MITG53", Description: "(1) Use of silt curtains during dredging and dredge protocols contained in project EMP. 
+(2) Controlled dewatering of fully bunded site."}),
 (Mitig54:RISKMITIGATION{Name:"MITG54", Description: "Spill contingency procedures contained in project EMP. Controlled via fully bunded site."}),
-(Mitig55:RISKMITIGATION{Name:"MITG55", Description: "Use of silt curtains during dredging and dredge protocols contained in project EMP. Controlled dewatering of fully bunded site."}),
-(Mitig56:RISKMITIGATION{Name:"MITG56", Description: "Visual survey of site to detect noise sensitive species prior to commencement of construction works. Dispersal of noise sensitive species using motorised vessel."}),
+(Mitig55:RISKMITIGATION{Name:"MITG55", Description: "(1) Use of silt curtains during dredging and dredge protocols contained in project EMP. 
+(2) Controlled dewatering of fully bunded site."}),
+(Mitig56:RISKMITIGATION{Name:"MITG56", Description: "(1) Visual survey of site to detect noise sensitive species prior to commencement of construction works. 
+(2) Dispersal of noise sensitive species using motorised vessel."}),
 (Mitig57:RISKMITIGATION{Name:"MITG57", Description: "Waste control measures contained in project EMP. Waste controlled via fully bunded site."}),
-(Mitig58:RISKMITIGATION{Name:"MITG58", Description: "Use of silt curtains during dredging and dredge protocols contained in project EMP. Controlled dewatering of fully bunded site."}),
-(Mitig59:RISKMITIGATION{Name:"MITG59", Description: "Use of silt curtains during dredging and dredge protocols contained in project EMP. Controlled dewatering of fully bunded site."}),
-(Mitig60:RISKMITIGATION{Name:"MITG60", Description: "Use of silt curtains during dredging and dredge protocols contained in project EMP. Controlled dewatering of fully bunded site."}),
-(Mitig61:RISKMITIGATION{Name:"MITG61", Description: "Use of silt curtains during dredging and dredge protocols contained in project EMP. Controlled dewatering of fully bunded site."}),
-(Mitig62:RISKMITIGATION{Name:"MITG62", Description: "Use of silt curtains during dredging and dredge protocols contained in project EMP. Controlled dewatering of fully bunded site."}),
+(Mitig58:RISKMITIGATION{Name:"MITG58", Description: "(1) Use of silt curtains during dredging and dredge protocols contained in project EMP. 
+(2) Controlled dewatering of fully bunded site."}),
+(Mitig59:RISKMITIGATION{Name:"MITG59", Description: "(1) Use of silt curtains during dredging and dredge protocols contained in project EMP. 
+(2) Controlled dewatering of fully bunded site."}),
+(Mitig60:RISKMITIGATION{Name:"MITG60", Description: "(1) Use of silt curtains during dredging and dredge protocols contained in project EMP. 
+(2) Controlled dewatering of fully bunded site."}),
+(Mitig61:RISKMITIGATION{Name:"MITG61", Description: "(1) Use of silt curtains during dredging and dredge protocols contained in project EMP. 
+(2) Controlled dewatering of fully bunded site."}),
+(Mitig62:RISKMITIGATION{Name:"MITG62", Description: "(1) Use of silt curtains during dredging and dredge protocols contained in project EMP. 
+(2) Controlled dewatering of fully bunded site."}),
 (Mitig63:RISKMITIGATION{Name:"MITG63", Description: "Waste control measures contained in project EMP. Waste controlled via fully bunded site."}),
 
 
@@ -898,7 +936,8 @@ CREATE
 (Consq66:RISKCONSEQUENCE{Name:"CONSQ66", Description:"Diminished Aboriginal use of the area for cultural practices such as fishing and foraging."}),
 
 // Risk mitigation
-(Mitig64:RISKMITIGATION{Name:"MITG64", Description: "Cultural monitoring and site inspection program to be implemented during development of the site. Training of construction contractors and staff."}),
+(Mitig64:RISKMITIGATION{Name:"MITG64", Description: "(1) Cultural monitoring and site inspection program to be implemented during development of the site. 
+(2) Training of construction contractors and staff."}),
 (Mitig65:RISKMITIGATION{Name:"MITG65", Description: "Implementation of a protocol in the event of a find of cultural significance and appropriate management actions in consultation with the Traditional Owners."}),
 (Mitig66:RISKMITIGATION{Name:"MITG66", Description: "Review of expert environmental reports by Traditional Owners."}),
 
@@ -1106,7 +1145,8 @@ CREATE
 // Risk mitigation
 (Mitig78:RISKMITIGATION{Name:"MITG78", Description: "Encouragement of suitable labour force into local market."}),
 (Mitig79:RISKMITIGATION{Name:"MITG79", Description: "Expected labour force will be drawn from existing local workforce."}),
-(Mitig80:RISKMITIGATION{Name:"MITG80", Description: "Roseneath Quarry has been specifically re-opened to supply materials for this project. Significant reserves still exist in the vicinity to provide material for future developments."}),
+(Mitig80:RISKMITIGATION{Name:"MITG80", Description: "(1) Roseneath Quarry has been specifically re-opened to supply materials for this project. 
+(2) Significant reserves still exist in the vicinity to provide material for future developments."}),
 (Mitig81:RISKMITIGATION{Name:"MITG81", Description: "Ensure production schedules are consistent with existing user requirements."}),
 
 // Relationship
@@ -1191,17 +1231,29 @@ CREATE
 (Consq94:RISKCONSEQUENCE{Name:"CONSQ94", Description:"Injury or Loss of Life"}),
 
 // Risk mitigation
-(Mitig82:RISKMITIGATION{Name:"MITG82", Description: "Geotechnical Analysis for design of slopes and batters. Specific design parameters for retaining and revetment works. Level 1 construction supervision."}),
-(Mitig83:RISKMITIGATION{Name:"MITG83", Description: "Monitoring of depressurization system through construction as identified in EMP. Reduced WorkingCells."}),
-(Mitig84:RISKMITIGATION{Name:"MITG84", Description: "Level 1 construction supervision. Reduced Working Cells."}),
-(Mitig85:RISKMITIGATION{Name:"MITG85", Description: "Monitoring of depressurization system through construction as identified in EMP. Reduced Working Cells."}),
-(Mitig86:RISKMITIGATION{Name:"MITG86", Description: "Monitoring of depressurization system through construction as identified in EMP. Reduced Working Cells."}),
+(Mitig82:RISKMITIGATION{Name:"MITG82", Description: "(1) Geotechnical Analysis for design of slopes and batters. 
+(2) Specific design parameters for retaining and revetment works. 
+(3) Level 1 construction supervision."}),
+(Mitig83:RISKMITIGATION{Name:"MITG83", Description: "(1) Monitoring of depressurization system through construction as identified in EMP. 
+(2) Reduced WorkingCells."}),
+(Mitig84:RISKMITIGATION{Name:"MITG84", Description: "(1) Level 1 construction supervision. 
+(2) Reduced Working Cells."}),
+(Mitig85:RISKMITIGATION{Name:"MITG85", Description: "(1) Monitoring of depressurization system through construction as identified in EMP. 
+(2) Reduced Working Cells."}),
+(Mitig86:RISKMITIGATION{Name:"MITG86", Description: "(1) Monitoring of depressurization system through construction as identified in EMP. 
+(2) Reduced Working Cells."}),
 (Mitig87:RISKMITIGATION{Name:"MITG87", Description: "Agreement with Port Authority to receive materials to enable relocation and treatment."}),
 (Mitig88:RISKMITIGATION{Name:"MITG88", Description: "Site remediation works post event."}),
-(Mitig89:RISKMITIGATION{Name:"MITG89", Description: "Marine infrastructure structurally designed to accommodate 100 year ARI cyclone waves with minimal damage. Site secured and site personnel and equipment relocated to safe refuge. Site remediationworks post event."}),
-(Mitig90:RISKMITIGATION{Name:"MITG90", Description: "Marine infrastructure structurally designed to accommodate 100 year ARI cyclone waves with minimal damage. Site secured and site personnel and equipment relocated to safe refuge. Site remediationworks post event."}),
-(Mitig91:RISKMITIGATION{Name:"MITG91", Description: "Site fully bunded post sheet pile installation. Site remediation works post event."}),
-(Mitig92:RISKMITIGATION{Name:"MITG92", Description: "Construction contractor to implement WH&S measures. Site remediation works post event."}),
+(Mitig89:RISKMITIGATION{Name:"MITG89", Description: "(1) Marine infrastructure structurally designed to accommodate 100 year ARI cyclone waves with minimal damage. 
+(2) Site secured and site personnel and equipment relocated to safe refuge. 
+(3) Site remediationworks post event."}),
+(Mitig90:RISKMITIGATION{Name:"MITG90", Description: "(1) Marine infrastructure structurally designed to accommodate 100 year ARI cyclone waves with minimal damage. 
+(2) Site secured and site personnel and equipment relocated to safe refuge. 
+(3) Site remediationworks post event."}),
+(Mitig91:RISKMITIGATION{Name:"MITG91", Description: "(1) Site fully bunded post sheet pile installation. 
+(2) Site remediation works post event."}),
+(Mitig92:RISKMITIGATION{Name:"MITG92", Description: "(1) Construction contractor to implement WH&S measures. 
+(2) Site remediation works post event."}),
 (Mitig93:RISKMITIGATION{Name:"MITG93", Description: "Site remediation works post event."}),
 (Mitig94:RISKMITIGATION{Name:"MITG94", Description: "Construction contractor to implement WH&Smeasures."}),
 
